@@ -7,9 +7,14 @@
 //
 
 #include <iostream>
-
+using namespace std;
 int main(int argc, const char * argv[]) {
-    // insert code here...
-    std::cout << "Hello, World!\n";
+    
+    cout << "Please enter a integer counter!" << endl;
+    int allNumbers = 0;
+    cin >> allNumbers;
+    for (int i = 0; i < allNumbers; i++) {
+        cout << "the current number is: " << i << endl;
+    }
     return 0;
 }

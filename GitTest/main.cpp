@@ -16,5 +16,7 @@ int main(int argc, const char * argv[]) {
     for (int i = 0; i < allNumbers; i++) {
         cout << "the current number is: " << i << endl;
     }
+    
+    cout << "This is the program end!" << endl;
     return 0;
 }
